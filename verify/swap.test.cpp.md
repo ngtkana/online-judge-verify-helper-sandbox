@@ -31,7 +31,7 @@ layout: default
 
 * category: <a href="../index.html#5058f1af8388633f609cadb75a75dc9d">.</a>
 * <a href="{{ site.github.repository_url }}/blob/master/swap.test.cpp">View this file on GitHub</a>
-    - Last commit date: 2020-04-29 21:46:52+09:00
+    - Last commit date: 2020-04-29 23:09:08+09:00
 
 
 * see: <a href="https://judge.yosupo.jp/problem/aplusb">https://judge.yosupo.jp/problem/aplusb</a>
@@ -39,7 +39,7 @@ layout: default
 
 ## Depends on
 
-* :heavy_check_mark: <a href="../library/swap.hpp.html">swap.hpp</a>
+* :heavy_check_mark: <a href="../library/swap.hpp.html">Swapping <small>(swap.hpp)</small></a>
 
 
 ## Code
@@ -77,6 +77,11 @@ void swap(int& x, int& y) {
     x^=y;
 }
 
+/*
+ * @brief Swapping
+ *
+ * @docs swap.md
+ */
 #line 6 "swap.test.cpp"
 
 int main() {

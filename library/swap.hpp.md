@@ -25,15 +25,36 @@ layout: default
 <link rel="stylesheet" href="../assets/css/copy-button.css" />
 
 
-# :heavy_check_mark: swap.hpp
+# :heavy_check_mark: Swapping <small>(swap.hpp)</small>
 
 <a href="../index.html">Back to top page</a>
 
 * category: <a href="../index.html#5058f1af8388633f609cadb75a75dc9d">.</a>
 * <a href="{{ site.github.repository_url }}/blob/master/swap.hpp">View this file on GitHub</a>
-    - Last commit date: 2020-04-29 21:46:52+09:00
+    - Last commit date: 2020-04-29 23:09:08+09:00
 
 
+
+
+## なんと
+
+スワップができます。
+
+
+## ところで
+
+有名な公式
+
+$ \sum _ {i = 0} ^ { N - 1 } = \frac { N ( N - 1 ) } 2 $
+
+がありますね。
+
+
+## あのですね
+
+私は知っています。
+
+スワップはすごいです。すわわわわ。
 
 
 ## Verified with
@@ -52,6 +73,11 @@ void swap(int& x, int& y) {
     x^=y;
 }
 
+/*
+ * @brief Swapping
+ *
+ * @docs swap.md
+ */
 
 ```
 {% endraw %}
@@ -66,6 +92,11 @@ void swap(int& x, int& y) {
     x^=y;
 }
 
+/*
+ * @brief Swapping
+ *
+ * @docs swap.md
+ */
 
 ```
 {% endraw %}

@@ -38,7 +38,7 @@ layout: default
 
 ### .
 
-* :heavy_check_mark: <a href="library/swap.hpp.html">swap.hpp</a>
+* :heavy_check_mark: <a href="library/swap.hpp.html">Swapping <small>(swap.hpp)</small></a>
 
 
 ## Verify Files
