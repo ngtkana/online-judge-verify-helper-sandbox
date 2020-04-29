@@ -1,4 +1,4 @@
-#define PROBLEM https://atcoder.jp/contests/abc152/tasks/abc152_a
+#define PROBLEM "https://atcoder.jp/contests/abc152/tasks/abc152_a"
 
 #include <iostream>
 
