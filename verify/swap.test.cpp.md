@@ -25,16 +25,21 @@ layout: default
 <link rel="stylesheet" href="../assets/css/copy-button.css" />
 
 
-# :x: swap.test.cpp
+# :heavy_check_mark: swap.test.cpp
 
 <a href="../index.html">Back to top page</a>
 
 * category: <a href="../index.html#5058f1af8388633f609cadb75a75dc9d">.</a>
 * <a href="{{ site.github.repository_url }}/blob/master/swap.test.cpp">View this file on GitHub</a>
-    - Last commit date: 2020-04-29 21:34:45+09:00
+    - Last commit date: 2020-04-29 21:46:52+09:00
 
 
-* see: <a href="https://yukicoder.me/problems/no/1003">https://yukicoder.me/problems/no/1003</a>
+* see: <a href="https://judge.yosupo.jp/problem/aplusb">https://judge.yosupo.jp/problem/aplusb</a>
+
+
+## Depends on
+
+* :heavy_check_mark: <a href="../library/swap.hpp.html">swap.hpp</a>
 
 
 ## Code
@@ -42,13 +47,16 @@ layout: default
 <a id="unbundled"></a>
 {% raw %}
 ```cpp
-#define PROBLEM "https://yukicoder.me/problems/no/1003"
+#define PROBLEM "https://judge.yosupo.jp/problem/aplusb"
 
 #include <iostream>
 
+#include "swap.hpp"
+
 int main() {
-    int n;std::cin>>n;
-    std::cout<<(n%6?"No":"Yes")<<'\n';
+    int x,y;std::cin>>x>>y;
+    swap(x,y);
+    std::cout<<x+y<<'\n';
 }
 
 ```
@@ -58,13 +66,23 @@ int main() {
 {% raw %}
 ```cpp
 #line 1 "swap.test.cpp"
-#define PROBLEM "https://yukicoder.me/problems/no/1003"
+#define PROBLEM "https://judge.yosupo.jp/problem/aplusb"
 
 #include <iostream>
 
+#line 1 "swap.hpp"
+void swap(int& x, int& y) {
+    x^=y;
+    y^=x;
+    x^=y;
+}
+
+#line 6 "swap.test.cpp"
+
 int main() {
-    int n;std::cin>>n;
-    std::cout<<(n%6?"No":"Yes")<<'\n';
+    int x,y;std::cin>>x>>y;
+    swap(x,y);
+    std::cout<<x+y<<'\n';
 }
 
 ```

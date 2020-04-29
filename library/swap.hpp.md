@@ -25,15 +25,20 @@ layout: default
 <link rel="stylesheet" href="../assets/css/copy-button.css" />
 
 
-# :warning: swap.hpp
+# :heavy_check_mark: swap.hpp
 
 <a href="../index.html">Back to top page</a>
 
 * category: <a href="../index.html#5058f1af8388633f609cadb75a75dc9d">.</a>
 * <a href="{{ site.github.repository_url }}/blob/master/swap.hpp">View this file on GitHub</a>
-    - Last commit date: 2020-04-29 21:17:18+09:00
+    - Last commit date: 2020-04-29 21:46:52+09:00
 
 
+
+
+## Verified with
+
+* :heavy_check_mark: <a href="../verify/swap.test.cpp.html">swap.test.cpp</a>
 
 
 ## Code
@@ -42,7 +47,9 @@ layout: default
 {% raw %}
 ```cpp
 void swap(int& x, int& y) {
-    x^=y^=x^=y;
+    x^=y;
+    y^=x;
+    x^=y;
 }
 
 
@@ -54,7 +61,9 @@ void swap(int& x, int& y) {
 ```cpp
 #line 1 "swap.hpp"
 void swap(int& x, int& y) {
-    x^=y^=x^=y;
+    x^=y;
+    y^=x;
+    x^=y;
 }
 
 

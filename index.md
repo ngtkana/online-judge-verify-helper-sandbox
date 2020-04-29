@@ -38,11 +38,11 @@ layout: default
 
 ### .
 
-* :warning: <a href="library/swap.hpp.html">swap.hpp</a>
+* :heavy_check_mark: <a href="library/swap.hpp.html">swap.hpp</a>
 
 
 ## Verify Files
 
-* :x: <a href="verify/swap.test.cpp.html">swap.test.cpp</a>
+* :heavy_check_mark: <a href="verify/swap.test.cpp.html">swap.test.cpp</a>
 
 
