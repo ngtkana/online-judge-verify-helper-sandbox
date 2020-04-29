@@ -34,7 +34,7 @@ layout: default
     - Last commit date: 2020-04-29 21:26:23+09:00
 
 
-* see: <a href="http:">http:</a>
+* see: <a href="https://atcoder.jp/contests/abc152/tasks/abc152_a">https://atcoder.jp/contests/abc152/tasks/abc152_a</a>
 
 
 ## Code
@@ -42,7 +42,7 @@ layout: default
 <a id="unbundled"></a>
 {% raw %}
 ```cpp
-#define PROBLEM http://atcoder.jp/contests/abc152/tasks/abc152_a
+#define PROBLEM "https://atcoder.jp/contests/abc152/tasks/abc152_a"
 
 #include <iostream>
 
@@ -58,7 +58,7 @@ int main() {
 {% raw %}
 ```cpp
 #line 1 "swap.test.cpp"
-#define PROBLEM http://atcoder.jp/contests/abc152/tasks/abc152_a
+#define PROBLEM "https://atcoder.jp/contests/abc152/tasks/abc152_a"
 
 #include <iostream>
 
