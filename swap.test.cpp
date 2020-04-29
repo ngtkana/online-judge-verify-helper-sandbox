@@ -1,8 +1,8 @@
-#define PROBLEM "https://atcoder.jp/contests/abc152/tasks/abc152_a"
+#define PROBLEM "https://yukicoder.me/problems/no/1003"
 
 #include <iostream>
 
 int main() {
-    int n,m;std::cin>>n>>m;
-    std::cout<<(n==m?"Yes":"No")<<'\n';
+    int n;std::cin>>n;
+    std::cout<<(n%6?"No":"Yes")<<'\n';
 }
