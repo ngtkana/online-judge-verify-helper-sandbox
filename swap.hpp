@@ -4,3 +4,8 @@ void swap(int& x, int& y) {
     x^=y;
 }
 
+/*
+ * @brief Swapping
+ *
+ * @docs swap.md
+ */
