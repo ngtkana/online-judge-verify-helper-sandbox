@@ -1,8 +1,11 @@
-#define PROBLEM "https://yukicoder.me/problems/no/1003"
+#define PROBLEM "https://judge.yosupo.jp/problem/aplusb"
 
 #include <iostream>
 
+#include "swap.hpp"
+
 int main() {
-    int n;std::cin>>n;
-    std::cout<<(n%6?"No":"Yes")<<'\n';
+    int x,y;std::cin>>x>>y;
+    swap(x,y);
+    std::cout<<x+y<<'\n';
 }
