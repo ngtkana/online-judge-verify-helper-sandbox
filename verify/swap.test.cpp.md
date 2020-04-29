@@ -31,10 +31,10 @@ layout: default
 
 * category: <a href="../index.html#5058f1af8388633f609cadb75a75dc9d">.</a>
 * <a href="{{ site.github.repository_url }}/blob/master/swap.test.cpp">View this file on GitHub</a>
-    - Last commit date: 2020-04-29 21:17:18+09:00
+    - Last commit date: 2020-04-29 21:26:23+09:00
 
 
-* see: <a href="https:">https:</a>
+* see: <a href="http:">http:</a>
 
 
 ## Code
@@ -42,7 +42,7 @@ layout: default
 <a id="unbundled"></a>
 {% raw %}
 ```cpp
-#define PROBLEM https://atcoder.jp/contests/abc152/tasks/abc152_a
+#define PROBLEM http://atcoder.jp/contests/abc152/tasks/abc152_a
 
 #include <iostream>
 
@@ -58,7 +58,7 @@ int main() {
 {% raw %}
 ```cpp
 #line 1 "swap.test.cpp"
-#define PROBLEM https://atcoder.jp/contests/abc152/tasks/abc152_a
+#define PROBLEM http://atcoder.jp/contests/abc152/tasks/abc152_a
 
 #include <iostream>
 
