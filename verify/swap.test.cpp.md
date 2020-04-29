@@ -31,10 +31,10 @@ layout: default
 
 * category: <a href="../index.html#5058f1af8388633f609cadb75a75dc9d">.</a>
 * <a href="{{ site.github.repository_url }}/blob/master/swap.test.cpp">View this file on GitHub</a>
-    - Last commit date: 2020-04-29 21:26:23+09:00
+    - Last commit date: 2020-04-29 21:34:45+09:00
 
 
-* see: <a href="https://atcoder.jp/contests/abc152/tasks/abc152_a">https://atcoder.jp/contests/abc152/tasks/abc152_a</a>
+* see: <a href="https://yukicoder.me/problems/no/1003">https://yukicoder.me/problems/no/1003</a>
 
 
 ## Code
@@ -42,13 +42,13 @@ layout: default
 <a id="unbundled"></a>
 {% raw %}
 ```cpp
-#define PROBLEM "https://atcoder.jp/contests/abc152/tasks/abc152_a"
+#define PROBLEM "https://yukicoder.me/problems/no/1003"
 
 #include <iostream>
 
 int main() {
-    int n,m;std::cin>>n>>m;
-    std::cout<<(n==m?"Yes":"No")<<'\n';
+    int n;std::cin>>n;
+    std::cout<<(n%6?"No":"Yes")<<'\n';
 }
 
 ```
@@ -58,13 +58,13 @@ int main() {
 {% raw %}
 ```cpp
 #line 1 "swap.test.cpp"
-#define PROBLEM "https://atcoder.jp/contests/abc152/tasks/abc152_a"
+#define PROBLEM "https://yukicoder.me/problems/no/1003"
 
 #include <iostream>
 
 int main() {
-    int n,m;std::cin>>n>>m;
-    std::cout<<(n==m?"Yes":"No")<<'\n';
+    int n;std::cin>>n;
+    std::cout<<(n%6?"No":"Yes")<<'\n';
 }
 
 ```
